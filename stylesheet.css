@@ -26,3 +26,16 @@ body{
 }
 
 
+.profil-img{
+    max-width: 300px;
+    margin-left: 90px;
+    width: 100%; /* Fylder 100% af containeren */
+    height: auto; /* Bevarer billedets proportioner, så det ikke ændrer sig */
+}
+
+h4{
+    color: #FA4E8A;
+    font-family: Popppins;
+    font-weight: bold;
+}
+
