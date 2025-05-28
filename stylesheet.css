@@ -227,4 +227,51 @@ border-radius: 30px;
     align-items: center;
     margin-top: 90px;
 }
+
+.sandtelfalskboks{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff4e8;
+    border-radius: 30px;
+    padding: 20px;
+    border: 3px solid #1EC9C1;
 }
+
+.Tekstserum{
+font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+
+.serumbillede{
+display: flex;
+}
+
+.serumbillede img{
+width: 200px;
+}
+
+    .Falskboks{
+        background-color: #E0D3ED;
+        border-radius: 30px;
+        height: 300px;
+    }
+
+.falsktekst{
+color: #FA4E8A;
+font-size: 40px;
+padding: 20px;
+}
+
+.Forklaringen{
+font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+    @media (max-width: 600px) {
+        .sandtelfalskboks, .Falskboks{
+            flex-direction: row;
+            text-align: center;
