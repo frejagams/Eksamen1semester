@@ -67,7 +67,7 @@ body{
         gap: 20px; /* Mellemrummet mellem cards*/
     }
 
-    /*Bredde og fylde af cards i mobil*/
+    /*Bredde og fylde af cards i mobiltilstand*/
     .Quiz-card,
     .video-card,
     .sandtelfalsk-card,
@@ -212,4 +212,19 @@ border-radius: 30px;
 p{
 font-weight: bold;
     text-align: center;
+}
+
+.Videoboks img{
+border-radius: 30px;
+    width: 380px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.Videoboks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
 }
