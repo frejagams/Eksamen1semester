@@ -129,9 +129,23 @@ background-color: #FA4E8A;
     text-align: center;
 }
 
-
 .Likede-cards{
 border-radius: 30px;
     justify-content: space-between; /*Mellemrum mellem dem*/
     margin-bottom: 50px; /* Afstanden imellem cards */
 }
+
+
+.Søgefeltet{
+background-color: #FA4E8A;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 200px;
+}
+
