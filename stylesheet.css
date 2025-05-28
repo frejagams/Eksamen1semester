@@ -117,4 +117,21 @@ background-color: #FA4E8A;
     margin-left: 90px;
 }
 
+.Oliviasgemte{
+    background-color: #FA4E8A;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 300px;
+    margin-left: 90px;
+    margin-top: 20px;
+    text-align: center;
+}
 
+
+.Likede-cards{
+border-radius: 30px;
+    justify-content: space-between; /*Mellemrum mellem dem*/
+    margin-bottom: 50px; /* Afstanden imellem cards */
+}
