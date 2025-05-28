@@ -149,3 +149,26 @@ background-color: #FA4E8A;
     margin-top: 200px;
 }
 
+.Sandt{
+    background-color: #FA4E8A;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 300px;
+    margin-left: 90px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Quiztid{
+    background-color: #FA4E8A;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 300px;
+    margin-left: 90px;
+    margin-top: 20px;
+    text-align: center;
+}
