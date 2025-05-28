@@ -172,3 +172,44 @@ background-color: #FA4E8A;
     margin-top: 20px;
     text-align: center;
 }
+
+.Quizboks{
+    background-color: #E0D3ED;
+color: black;
+    height: 630px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.spf{
+border-radius: 30px;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.serum{
+    background-color: #FA4E8A;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.pimplepacthes{
+    background-color: #FA4E8A;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+    .solcreme{
+        background-color: #FA4E8A;
+        color: white;
+        padding: 15px;
+        border-radius: 30px;
+    }
+
+p{
+font-weight: bold;
+    text-align: center;
+}
