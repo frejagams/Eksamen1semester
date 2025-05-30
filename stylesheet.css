@@ -16,7 +16,7 @@ body{
 .bundnav{
     background-color: white;
     display: flex; /* Brug flexbox til at placere knapperne på linje */
-    gap: 60px; /* Lidt luft mellem knapperne */
+    gap: 30px; /* Lidt luft mellem knapperne */
     width: 100%;
     border-radius: 5px;
     padding: 10px; /* Skaber luft */
@@ -78,6 +78,8 @@ body{
 
 .Profiltekst{
 text-align: center; /* får teksten til at centrere sig i midten */
+}
+
 }
 
 .HejOlivia{
@@ -322,3 +324,4 @@ text-align: center;
         width: 100%;
         height: 380px;
     }
+
