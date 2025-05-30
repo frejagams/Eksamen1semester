@@ -1,5 +1,9 @@
 body{
     background-color: #fff4e8
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    height: auto;
 }
 
 .logo-header {
@@ -131,8 +135,8 @@ background-color: #FA4E8A;
 
 .Likede-cards{
 border-radius: 30px;
+    height: 200px;
     justify-content: space-between; /*Mellemrum mellem dem*/
-    margin-bottom: 50px; /* Afstanden imellem cards */
 }
 
 
@@ -263,6 +267,7 @@ width: 200px;
 color: #FA4E8A;
 font-size: 40px;
 padding: 20px;
+    text-align: left;
 }
 
 .Forklaringen{
@@ -271,7 +276,54 @@ font-size: 20px;
     text-align: center;
 }
 
-    @media (max-width: 600px) {
-        .sandtelfalskboks, .Falskboks{
-            flex-direction: row;
-            text-align: center;
+
+.card-anbefaling{
+display: flex;
+flex-wrap: wrap;
+max-width: 700px;
+gap: 20px;
+justify-content: center;
+    margin: 40px auto;
+}
+
+.card-anbefaling > div {
+width: 45%; /*to rækker*/
+height: 300px;
+border-radius: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.card-anbefaling img{
+max-width: 100%;
+max-height: 100%;
+    border-radius: 30px;
+}
+
+/* Responsiv mobil */
+@media (max-width: 600px) {
+    .card-anbefaling {
+        flex-direction: row; /*Vandret*/
+        gap: 20px; /* Mellemrummet mellem cards*/
+    }
+
+.Oliviasanbefalinger{
+background-color: #FA4E8A;
+color: white;
+padding: 15px;
+border-radius: 30px;
+font-weight: bold;
+width: 300px;
+margin-left: 90px;
+margin-top: 20px;
+text-align: center;
+}
+
+.solcremer-card, .decubal-card, .tretips-card{
+border: 3px solid #FA4E8A /* Den pinke kant */
+}
+
+.ecookingto-card, .ecookingcream-card, .decubalto-card{
+    border: 3px solid #1EC9C1 /* Den turkise kant */
+}
