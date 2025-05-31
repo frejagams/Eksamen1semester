@@ -1,3 +1,18 @@
+/* Responsiv mobil */
+@media (max-width: 600px) {
+    /* Mobil */}
+
+/* Tablet */
+@media (min-width: 768px) {
+    /* Tablet */
+}
+
+    /* Desktop */
+    @media (min-width: 1024px) {
+    /* Desktop */
+}
+
+
 body{
     background-color: #fff4e8
 }
@@ -59,8 +74,6 @@ body{
     border-radius: 30px;
 }
 
-/* Responsiv mobil */
-@media (max-width: 600px) {
     .card-row {
         flex-direction: row; /*Vandret*/
         gap: 20px; /* Mellemrummet mellem cards*/
@@ -79,15 +92,10 @@ body{
 text-align: center; /* får teksten til at centrere sig i midten */
 }
 
-}
-
 .HejOlivia{
-color: #FA4E8A;
-    font-weight: bold;
-    text-align: left;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
+    color: #FA4E8A;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .Profilbillede{
@@ -319,8 +327,6 @@ max-height: 100%;
     border-radius: 20px;
 }
 
-/* Responsiv mobil */
-@media (max-width: 600px) {
     .card-anbefaling {
         flex-direction: row; /*Vandret*/
         gap: 20px; /* Mellemrummet mellem cards*/
