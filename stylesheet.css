@@ -1,5 +1,4 @@
 
-
 body{
     background-color: #fff4e8
 }
@@ -75,56 +74,64 @@ body{
         height: 290px;
     }
 
-.Profiltekst{
-text-align: center; /* får teksten til at centrere sig i midten */
+.profilbillede img{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 60px
 }
 
-.HejOlivia{
+h3{
     color: #FA4E8A;
+    display: flex;
     margin-left: 10px;
     margin-top: 10px;
 }
 
-.Profilbillede{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-
-.Navneboks{
-background-color: #FA4E8A;
+.navneboks{
     color: white;
-    padding: 20px;
+    background-color: #FA4E8A;
     border-radius: 30px;
-    font-weight: bold;
     width: 300px;
+font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-left: 90px;
-    margin-bottom: 60px;
 }
 
-.Beskrivelseboks{
+
+.beskrivelsesboks{
     background-color: #FA4E8A;
     color: white;
-    padding: 20px;
-    border-radius: 30px;
+    border-radius: 20px;
     font-weight: bold;
     width: 300px;
+    height: 200px;
     margin-left: 90px;
+    margin-top: 20px;
+    display: flex;
+    text-align: left;
+    padding: 10px;
 }
+
 
 .Oliviasgemte{
     background-color: #FA4E8A;
     color: white;
-    padding: 15px;
-    border-radius: 30px;
+    border-radius: 20px;
     font-weight: bold;
     width: 300px;
     margin-left: 90px;
     margin-top: 20px;
     text-align: center;
+    justify-content: center;
 }
+
+
 
 .Likede-cards{
 border-radius: 30px;
