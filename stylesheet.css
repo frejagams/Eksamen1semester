@@ -1,7 +1,8 @@
 
 body{
-    background-color: #fff4e8
-}
+    background-color: #fff4e8;
+    font-family: "Poppins", sans-serif;
+   }
 
 .logo-header {
     display: flex; /* Gør containeren til en flexbox */
@@ -117,6 +118,7 @@ font-weight: bold;
     border-radius: 20px;
     font-weight: bold;
     width: 300px;
+    padding: 10px;
     margin-left: 80px;
     margin-top: 20px;
     text-align: center;
