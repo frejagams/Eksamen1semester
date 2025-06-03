@@ -1,16 +1,3 @@
-/* Responsiv mobil */
-@media (max-width: 600px) {
-    /* Mobil */}
-
-/* Tablet */
-@media (min-width: 768px) {
-    /* Tablet */
-}
-
-    /* Desktop */
-    @media (min-width: 1024px) {
-    /* Desktop */
-}
 
 
 body{
@@ -346,7 +333,7 @@ text-align: center;
 
 
     /*Bredde og fylde af cards i mobiltilstand*/
-    solcremer-card, .decubal-card, .tretips-card, .ecookingto-card, .ecookingcream-card, .decubalto-card {
+    .solcremer-card, .decubal-card, .tretips-card, .ecookingto-card, .ecookingcream-card, .decubalto-card {
         width: 100%;
         height: 380px;
     }
@@ -363,3 +350,36 @@ text-align: center;
     text-align: center;
 }
 
+/* Tilpassede kærmstørrelser */
+/* Tablet */
+@media (min-width: 768px) {
+    .card-row {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .Quiz-card,
+    .video-card,
+    .sandtelfalsk-card,
+    .Anbefalinger-card {
+        width: 48%;
+        height: 240px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .card-row{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .Quiz-card,
+    .video-card,
+    .sandtelfalsk-card,
+    .Anbefalinger-card {
+        width: 48%;
+        height: 600px;
+        object-fit: cover;
+    }
+}
