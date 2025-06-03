@@ -17,11 +17,10 @@ body{
 .bundnav{
     background-color: white;
     display: flex; /* Brug flexbox til at placere knapperne på linje */
-    gap: 30px; /* Lidt luft mellem knapperne */
+    gap: 10px; /* Lidt luft mellem knapperne */
+    position: fixed; /* Navbar er låst */
     width: 100%;
     border-radius: 5px;
-    padding: 10px; /* Skaber luft */
-    position: fixed; /* Navbar er låst */
     bottom: 0;        /* Placerer den helt nede i bunden */
     left: 0;          /* Fra venstre kant */
 }
@@ -75,17 +74,13 @@ body{
     }
 
 .profilbillede img{
-    width: 350px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    margin-left: 60px
+    width: 300px;
+    height: 250px;
+    margin-left: 90px;
 }
 
-h3{
+.Hej{
     color: #FA4E8A;
-    display: flex;
-    margin-left: 10px;
     margin-top: 10px;
 }
 
@@ -98,8 +93,6 @@ font-weight: bold;
     padding: 10px;
     font-size: 20px;
     text-align: center;
-    display: flex;
-    justify-content: center;
     margin-left: 90px;
 }
 
@@ -113,8 +106,7 @@ font-weight: bold;
     height: 200px;
     margin-left: 90px;
     margin-top: 20px;
-    display: flex;
-    text-align: left;
+    justify-content: left;
     padding: 10px;
 }
 
@@ -125,7 +117,7 @@ font-weight: bold;
     border-radius: 20px;
     font-weight: bold;
     width: 300px;
-    margin-left: 90px;
+    margin-left: 80px;
     margin-top: 20px;
     text-align: center;
     justify-content: center;
@@ -176,24 +168,23 @@ background-color: #FA4E8A;
     border-radius: 30px;
     font-weight: bold;
     width: 300px;
-    margin-left: 90px;
+    margin-left: 80px;
     margin-top: 20px;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .Quizboks{
+    padding-top: 20px;
     background-color: #E0D3ED;
 color: black;
-    height: 650px;
+    height: 600px;
     border-radius: 30px;
     text-align: center;
 }
 
 .spørgsmålet{
-    justify-content: center;
     margin-bottom: 10px;
-    padding: 15px;
 }
 
 .svarene{
@@ -238,16 +229,15 @@ font-weight: bold;
 
 .Videoboks img{
 border-radius: 30px;
-    width: 380px;
-    height: 600px;
+    width: 300px;
+    height: 500px;
     object-fit: cover;
 }
 
 .Videoboks{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .sandtelfalskboks{
@@ -259,6 +249,7 @@ display: flex;
     padding: 20px;
     border: 3px solid #1EC9C1;
     margin-top: 40px;
+    height: 200;
 }
 
 .Tekstserum{
@@ -279,7 +270,7 @@ width: 200px;
     .Falskboks{
         background-color: #E0D3ED;
         border-radius: 30px;
-        height: 300px;
+        height: 280px;
         margin-top: 50px;
     }
 
@@ -352,7 +343,7 @@ text-align: center;
     border-radius: 30px;
     font-weight: bold;
     width: 300px;
-    margin-left: 90px;
+    margin-left: 80px;
     margin-top: 20px;
     text-align: center;
 }
