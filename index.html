@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Head indeholder metadata, stylesheets og skrifttyper -->
     <head>
-        <!--Vigtige metatags -->
+        <!--Vigtige metatags, sikrer at alle bogstaver vises korrekt -->
         <meta charset="UTF-8">
+        <!-- gør at siden tilpasser sig skærmstørrelser -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Titel på siden -->
+        <!-- Titel på siden i browseren -->
         <title>TikTrue app</title>
-        <!-- Bootstrap link CSS -->
+        <!-- Bootstrap link CSS, hjælper med farver og knapper -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
         <!-- Min egen CSS -->
         <link rel="stylesheet" href="stylesheet.css">
+        <!-- Google fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     </head>
 
 <body>
+<!-- Alt synligt inhold -->
 
+<!-- Hele appens indhold samles i denne container. Det gør det nemt at styre layout med CSS. -->
 <div class="app-container">
+    <!-- logo på appen -->
 <header class="logo-header">
     <img src="billeder/LOGO.png" alt="TikTrue logo" class="logo-img" />
 </header>
@@ -26,8 +32,8 @@
 
     <main>
         <!-- Første række -->
-
         <section class="card-row">
+            <!-- Hver <a> er et link der ligner et kort, med billede -->
             <a href="quiz.html" class="Quiz-card">
                 <img src="billeder/Quiz.png" alt="Quiz" />
             </a>
@@ -39,6 +45,7 @@
         <!-- Anden række -->
 
         <section class="card-row">
+            <!-- Hver <a> er et link der ligner et kort, med billede -->
             <a href="sandtellerfalsk.html" class="sandtelfalsk-card">
                 <img src="billeder/Sandtelfalsk.png" alt="Sandt eller falsk" />
             </a>
@@ -56,7 +63,8 @@
 
 
 <footer>
-<!-- Navigation med knapper centreret -->
+<!-- Navigationen i bunden af siden -->
+
 <ul class="nav justify-content-center Button-nav bundnav">
 
     <!-- Første punkt i navigationen -->
@@ -97,6 +105,7 @@
 </ul>
 </footer>
 
+<!-- bootstraps javascript som gør knapper osv interaktive -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>

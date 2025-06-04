@@ -1,34 +1,37 @@
-
+/* baggrund og font på siden generelt */
 body{
     background-color: #fff4e8;
     font-family: "Poppins", sans-serif;
-    padding-bottom: 60px;
+    padding-bottom: 60px; /* gør plads til bundnavigation */
    }
 
+/* centrering af logo forside */
 .logo-header {
     display: flex; /* Gør containeren til en flexbox */
-    justify-content: center; /* Centrerer vandret */
+    justify-content: center; /* bliver centreret på siden */
 }
 
+/* Logoet laves responsivt */
 .logo-img {
     max-width: 300px; /* Billedets max bredde 300px */
     width: 100%; /* Fylder 100% af containeren */
     height: auto; /* Bevarer billedets proportioner, så det ikke ændrer sig */
 }
 
+/* Navigationen i bunden */
 .bundnav{
     background-color: #FA4E8A;
     display: flex; /* Brug flexbox til at placere knapperne på linje */
     gap: 10px; /* Lidt luft mellem knapperne */
     position: fixed; /* Navbar er låst */
-    width: 100%;
-    border-radius: 5px;
+    width: 100%; /* fylder hele bredden */
     bottom: 0;        /* Placerer den helt nede i bunden */
     left: 0;          /* Fra venstre kant */
 }
 
+/* Billederne inde i navigationen */
 .nav-item img{
-    border-radius: 10px;
+    border-radius: 10px; /* Runding af kanterne på billederne */
 }
 
 /* De fire cards på forsiden */
@@ -38,16 +41,15 @@ body{
     margin-bottom: 20px; /* Afstanden imellem cards */
 }
 
-
 /*Udseendet på cards*/
 .Quiz-card,
 .video-card,
 .sandtelfalsk-card,
 .Anbefalinger-card {
     width: 48%; /* Hver card fylder ca halvdelen af rækken */
-    height: 100px;
-    border-radius: 30px;
-    padding: 5px;
+    height: 100px; /* højden på cards */
+    border-radius: 30px; /* runding af kanter */
+    padding: 5px; /* mellemrum/afstand fra kanterne */
 }
 
 .Quiz-card img, .Anbefalinger-card img{
@@ -62,35 +64,34 @@ body{
     /*Billederne fylder hele bredden og højden af cards*/
     width: 100%;
     height: 100%;
-    border-radius: 30px;
-    object-fit: fill;
+    border-radius: 30px; /* runding af kanterne */
+    object-fit: cover; /* billedet bliver ikke strukket */
 
 }
-
     .card-row {
         flex-direction: row; /*Vandret*/
         gap: 20px; /* Mellemrummet mellem cards*/
     }
 
-    /*Bredde og fylde af cards i mobiltilstand*/
-    .Quiz-card,
-    .video-card,
-    .sandtelfalsk-card,
-    .Anbefalinger-card {
-        width: 100%;
-        height: 290px;
-    }
+
+/*Bredde og fylde af cards i mobiltilstand*/
+.Quiz-card,
+.video-card,
+.sandtelfalsk-card,
+.Anbefalinger-card {
+    width: 100%; /* fylder hele skræmbredden */
+    height: 290px;
+}
 
 .profilbillede img{
-    display: flex;
     width: 300px;
     height: 250px;
     margin-left: 45px;
+    object-fit: cover; /*billedet bliver ikke strukket */
 }
 
 .Hej{
     color: #FA4E8A;
-    display: flex;
     margin-top: 10px;
     margin-left: 10px;
     font-size: 28px;
@@ -99,15 +100,14 @@ body{
 .navneboks{
     color: white;
     background-color: #FA4E8A;
-    border-radius: 30px;
-    margin-top: 5px;
-    width: 200px;
+    border-radius: 30px; /* runding af kanter */
+    margin-top: 5px; /* afstand til elementen ovenover */
+    width: 200px; /* bredden */
     font-weight: bold;
     font-size: 18px;
     margin-left: 100px;
-    display: block;
-    text-align: center;
-
+    display: block; /* fylder hele linjen */
+    text-align: center; /* centrerer teksten i boksen */
 }
 
 
@@ -119,12 +119,12 @@ body{
     height: 200px;
     margin-left: 45px;
     margin-top: 20px;
-    padding: 10px;
+    padding: 10px; /* afstand fra kanterne */
 }
 
 .navnogalder{
-    margin: 0;
-    text-align: left;
+    margin: 0; /* fjerner alt den ydre afstand rundt om den */
+    text-align: left; /* teksten er fra venstreretning */
 }
 
 
@@ -139,7 +139,7 @@ body{
     margin-left: 45px;
     margin-top: 20px;
     text-align: center;
-    justify-content: center;
+    justify-content: center; /* centrerer teksten i midten i boksen */
 }
 
 
@@ -148,7 +148,7 @@ body{
 border-radius: 30px;
     height: 200px;
     justify-content: space-between; /*Mellemrum mellem dem*/
-    margin-bottom: 0;
+    margin-bottom: 0; /* fjerner alt den ydre afstand rundt om den */
 }
 
 .Likede-cards img{
@@ -211,8 +211,8 @@ color: black;
 .svarene{
     padding: 10px;
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    flex-direction: column; /* står lodret under hinanden */
+    gap: 1rem; /* mellemrum */
 }
 
 .spf{
@@ -251,25 +251,25 @@ border-radius: 30px;
 border-radius: 30px;
     width: 300px;
     height: 500px;
-    object-fit: cover;
+    object-fit: cover; /* billedet bliver ikke strukket */
 }
 
 .Videoboks{
-    display: flex;
-    justify-content: center;
+    display: flex; /* kan placeres fleksibelt */
+    justify-content: center; /* centrerer i midten */
     margin-top: 60px;
 }
 
 .sandtelfalskboks{
 display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* afstand mellem dem */
     align-items: center;
     background-color: #fff4e8;
     border-radius: 30px;
     padding: 20px;
     border: 3px solid #1EC9C1;
     margin-top: 60px;
-    height: 200;
+    height: 200px;
 }
 
 .Sandt{
@@ -286,6 +286,7 @@ display: flex;
 
 .serumbillede{
 display: flex;
+    width: 150px;
 }
 
 .serumbillede img{
@@ -316,33 +317,32 @@ font-size: 20px;
 
 
 .card-anbefaling{
-display: flex;
-flex-wrap: wrap;
+display: flex; /* kan rykkes fleksibelt */
+    flex-direction: row;
+flex-wrap: wrap; /* tillader at indholdet kan gå på en ny linje, hvis ikke der er plads */
 max-width: 700px;
-gap: 20px;
+gap: 20px; /* Giver 20px mellemrum mellem kortene */
 justify-content: center;
-    margin: 40px auto;
+    margin: 10px auto; /* Giver 40px luft op og ned, og centrerer containeren horisontalt */
 }
 
+/* udseendet på de enkelte cards i anbefaling containeren*/
 .card-anbefaling > div {
-width: 45%; /*to rækker*/
+width: 45%; /*to rækker, ca halvelen af containeren*/
 height: 300px;
 border-radius: 30px;
 display: flex;
-align-items: center;
-justify-content: center;
+align-items: center; /* centrerer det lodret */
+justify-content: center; /* centrerer det vandret */
 }
 
 .card-anbefaling img{
-max-width: 100%;
-max-height: 100%;
+max-width: 100%; /* sørger for at den ikke overstiger containerens bredde*/
+max-height: 100%; /* sørger for at den ikke overstiger containerens højde*/
+    height: 250px;
     border-radius: 20px;
 }
 
-    .card-anbefaling {
-        flex-direction: row; /*Vandret*/
-        gap: 20px; /* Mellemrummet mellem cards*/
-    }
 
 .Oliviasanbefalinger{
 background-color: #FA4E8A;
@@ -351,11 +351,11 @@ padding: 10px;
 border-radius: 30px;
 font-weight: bold;
 width: 300px;
-    display: flex;
 margin-left: 45px;
 margin-top: 20px;
-text-align: center;
-    display: block;
+    display: flex;
+text-align: center; /* centrerer tekst i boksen */
+    justify-content: center; /*centrerer tekst på siden */
 }
 
 
@@ -372,16 +372,17 @@ text-align: center;
     border-radius: 30px;
     font-weight: bold;
     width: 300px;
-    display: flex;
     margin-left: 45px;
     margin-top: 20px;
+    display: flex;
     text-align: center;
-    display: block;
+    justify-content: center;
 }
 
-
+/* søgefeltet */
 .d-flex{
     display: flex;
+    justify-content: center;
     padding: 20px;
     margin-top: 200px;
     width: 300px;
@@ -391,11 +392,12 @@ text-align: center;
 
 }
 
+/* knappen i søgefeltet */
 .btn{
     background-color: white;
     color: #FA4E8A;
     border-color: #FA4E8A;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 
@@ -430,11 +432,12 @@ text-align: center;
     .Videoertildig,
     .Oliviasanbefalinger,
     .d-flex {
+        /*centrerer dem vandret */
         margin-left: auto;
         margin-right: auto;
     }
 
-    /* Anbefalingskort og billeder */
+    /* Anbefalingsbilleder */
     .card-anbefaling > div {
         width: 45%;
         height: 320px;
@@ -465,7 +468,8 @@ text-align: center;
 @media (min-width: 1024px) {
     .card-row {
         max-width: 900px;
-        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
     }
 
     .card-anbefaling {
