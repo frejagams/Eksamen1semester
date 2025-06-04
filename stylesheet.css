@@ -90,7 +90,9 @@ body{
 
 .Hej{
     color: #FA4E8A;
+    display: flex;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .navneboks{
@@ -102,6 +104,7 @@ font-weight: bold;
     padding: 10px;
     font-size: 20px;
     margin-left: 100px;
+    display: block;
 }
 
 
@@ -126,7 +129,7 @@ font-weight: bold;
     font-weight: bold;
     width: 300px;
     padding: 10px;
-    display: flex;
+    display: block;
     margin-left: 45px;
     margin-top: 20px;
     text-align: center;
@@ -139,13 +142,24 @@ font-weight: bold;
 border-radius: 30px;
     height: 200px;
     justify-content: space-between; /*Mellemrum mellem dem*/
+    margin-bottom: 0;
 }
 
 .Likede-cards img{
     width: 100%;
 }
 
+.Produkt1{
+    padding: 10px;
+}
 
+.Produkt2{
+    padding: 10px;
+}
+
+.Produkt3{
+    padding: 10px;
+}
 
 
 .Sandt{
@@ -171,6 +185,7 @@ border-radius: 30px;
     margin-top: 20px;
     margin-bottom: 30px;
     text-align: center;
+    display: block;
 }
 
 .Quizboks{
@@ -336,6 +351,7 @@ width: 300px;
 margin-left: 45px;
 margin-top: 20px;
 text-align: center;
+    display: block;
 }
 
 
@@ -356,6 +372,7 @@ text-align: center;
     margin-left: 45px;
     margin-top: 20px;
     text-align: center;
+    display: block;
 }
 
 
