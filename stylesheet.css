@@ -2,7 +2,7 @@
 body{
     background-color: #fff4e8;
     font-family: "Poppins", sans-serif;
-    padding-bottom: 90px;
+    padding-bottom: 60px;
    }
 
 .logo-header {
@@ -82,9 +82,10 @@ body{
     }
 
 .profilbillede img{
+    display: flex;
     width: 300px;
     height: 250px;
-    margin-left: 90px;
+    margin-left: 45px;
 }
 
 .Hej{
@@ -96,12 +97,11 @@ body{
     color: white;
     background-color: #FA4E8A;
     border-radius: 30px;
-    width: 300px;
+    width: 200px;
 font-weight: bold;
     padding: 10px;
     font-size: 20px;
-    text-align: center;
-    margin-left: 90px;
+    margin-left: 100px;
 }
 
 
@@ -112,7 +112,7 @@ font-weight: bold;
     font-weight: bold;
     width: 300px;
     height: 200px;
-    margin-left: 90px;
+    margin-left: 45px;
     margin-top: 20px;
     padding: 10px;
     text-align: left;
@@ -126,7 +126,8 @@ font-weight: bold;
     font-weight: bold;
     width: 300px;
     padding: 10px;
-    margin-left: 80px;
+    display: flex;
+    margin-left: 45px;
     margin-top: 20px;
     text-align: center;
     justify-content: center;
@@ -145,18 +146,7 @@ border-radius: 30px;
 }
 
 
-.Søgefeltet{
-background-color: #FA4E8A;
-    color: white;
-    border-radius: 30px;
-    border: none;
-    width: 200px;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 20px;
-    margin-left: 140px;
-    margin-top: 200px;
-}
+
 
 .Sandt{
     background-color: #FA4E8A;
@@ -177,10 +167,10 @@ background-color: #FA4E8A;
     border-radius: 30px;
     font-weight: bold;
     width: 300px;
-    margin-left: 80px;
+    margin-left: 45px;
     margin-top: 20px;
-    text-align: center;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .Quizboks{
@@ -261,11 +251,18 @@ display: flex;
     height: 200;
 }
 
+.Sandt{
+    display: flex;
+    margin-left: 45px;
+    justify-content: center;
+}
+
 .Tekstserum{
-font-size: 18px;
+    font-size: 18px;
     font-weight: bold;
     color: black;
-    text-align: left;
+    padding: 10px;
+    width: 400px;
 }
 
 .serumbillede{
@@ -273,7 +270,7 @@ display: flex;
 }
 
 .serumbillede img{
-width: 200px;
+width: 150px;
 }
 
     .Falskboks{
@@ -281,12 +278,13 @@ width: 200px;
         border-radius: 30px;
         height: 280px;
         margin-top: 50px;
+        text-align: center;
     }
 
 .falsktekst{
 color: #FA4E8A;
 font-size: 40px;
-padding: 20px;
+    padding: 10px;
 }
 
 .Forklaringen{
@@ -294,6 +292,7 @@ font-size: 20px;
     font-weight: normal;
     text-align: left;
     font-size: 18px;
+    padding: 10px;
 }
 
 
@@ -333,7 +332,8 @@ padding: 15px;
 border-radius: 30px;
 font-weight: bold;
 width: 300px;
-margin-left: 90px;
+    display: flex;
+margin-left: 45px;
 margin-top: 20px;
 text-align: center;
 }
@@ -352,7 +352,8 @@ text-align: center;
     border-radius: 30px;
     font-weight: bold;
     width: 300px;
-    margin-left: 80px;
+    display: flex;
+    margin-left: 45px;
     margin-top: 20px;
     text-align: center;
 }
@@ -363,9 +364,10 @@ text-align: center;
     padding: 20px;
     margin-top: 40px;
     width: 300px;
-    margin-left: 90px;
+    margin-left: 45px;
     background-color: #FA4E8A;
     border-radius: 20px;
+
 }
 
 .btn{
