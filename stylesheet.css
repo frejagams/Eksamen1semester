@@ -93,18 +93,21 @@ body{
     display: flex;
     margin-top: 10px;
     margin-left: 10px;
+    font-size: 28px;
 }
 
 .navneboks{
     color: white;
     background-color: #FA4E8A;
     border-radius: 30px;
+    margin-top: 5px;
     width: 200px;
-font-weight: bold;
-    padding: 10px;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 18px;
     margin-left: 100px;
     display: block;
+    text-align: center;
+
 }
 
 
@@ -112,12 +115,15 @@ font-weight: bold;
     background-color: #FA4E8A;
     color: white;
     border-radius: 20px;
-    font-weight: bold;
     width: 300px;
     height: 200px;
     margin-left: 45px;
     margin-top: 20px;
     padding: 10px;
+}
+
+.navnogalder{
+    margin: 0;
     text-align: left;
 }
 
@@ -192,13 +198,14 @@ border-radius: 30px;
     padding-top: 20px;
     background-color: #E0D3ED;
 color: black;
-    height: 600px;
+    height: 630px;
     border-radius: 30px;
     text-align: center;
 }
 
 .spørgsmålet{
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .svarene{
@@ -236,9 +243,8 @@ border-radius: 30px;
         border-radius: 30px;
     }
 
-p{
-font-weight: bold;
-    text-align: center;
+.FALSK{
+    font-weight: bold;
 }
 
 .Videoboks img{
@@ -262,7 +268,7 @@ display: flex;
     border-radius: 30px;
     padding: 20px;
     border: 3px solid #1EC9C1;
-    margin-top: 40px;
+    margin-top: 60px;
     height: 200;
 }
 
@@ -274,9 +280,7 @@ display: flex;
 
 .Tekstserum{
     font-size: 18px;
-    font-weight: bold;
     color: black;
-    padding: 10px;
     width: 400px;
 }
 
@@ -343,7 +347,7 @@ max-height: 100%;
 .Oliviasanbefalinger{
 background-color: #FA4E8A;
 color: white;
-padding: 15px;
+padding: 10px;
 border-radius: 30px;
 font-weight: bold;
 width: 300px;
@@ -379,7 +383,7 @@ text-align: center;
 .d-flex{
     display: flex;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 200px;
     width: 300px;
     margin-left: 45px;
     background-color: #FA4E8A;
@@ -403,7 +407,7 @@ text-align: center;
 @media screen and (min-width: 768px) {
     /* Cards på forsiden */
     .card-row {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
 
